@@ -12,8 +12,8 @@ int main()
 	int t;
 	cin >> t;
 	while(t--) {
-	    int t, N, W;
-	    cin >> t >> N >> W;
+	    int N, W;
+	    cin >> N >> W;
 	    int v[N], wt[N];
 	    for(int i=0; i<N; i++) {
 	        cin >> v[i];
